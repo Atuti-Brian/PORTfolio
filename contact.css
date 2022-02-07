@@ -1,0 +1,15 @@
+body{
+    background-color: #020412;
+    color: honeydew;
+    cursor: pointer;
+}
+.btn{
+    background-color: blue;
+    color: #fff;
+}
+.btn:hover{
+    background-color: red;
+}
+a{
+    color: white;
+}

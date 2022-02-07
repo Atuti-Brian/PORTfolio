@@ -1,0 +1,65 @@
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing:1px;
+    font-size: 17px;
+   cursor: pointer;
+}
+nav ul li a:hover{
+    color:#fff;
+    background-color: red;
+}
+body{
+    background-color: #020412;
+}
+.header{
+    color:#fff;
+    margin-top:5%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.contact h1{
+    font-size: 75px;
+    line-height: 160px;
+}
+.contact p{
+    font-size: 20px;
+}
+.contact{
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.contact a{margin-top:30px;
+        display: inline-block;
+        border-radius: 6px;  
+        border: 2px solid #fff724;
+        padding:10px 30px;
+        color:#fff724 ;
+        text-decoration: none;
+    }
+    .contact .btn{
+        background-color:green;
+        color: white;
+        margin-left: 30px;
+        font-weight: 600;
+    }
+    .user-img{
+      width: 540px; 
+      height: 600px;
+      position: absolute; 
+      right: 8%;
+      bottom: 0;
+    }
