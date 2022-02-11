@@ -13,3 +13,6 @@ body{
 a{
     color: white;
 }
+a:hover{
+    background-color: red;
+}
