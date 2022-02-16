@@ -1,0 +1,15 @@
+.Bg{ background-color: gainsboro;
+    background-origin: padding-box;
+    box-sizing: border-box;
+    border: gainsboro;
+    text-align: justify;
+    text-align: center;
+    border: 50px 5px;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2.5fr 1.5fr;
+  }
+ 
+  

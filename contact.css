@@ -1,18 +1,10 @@
 body{
-    background-color: #020412;
+    background-color: white;
     color: honeydew;
     cursor: pointer;
 }
 .btn{
-    background-color: blue;
-    color: #fff;
-}
-.btn:hover{
-    background-color: red;
-}
-a{
-    color: white;
-}
-a:hover{
-    background-color: red;
+    background-color:blue;
+    border-radius: 2px;
+
 }
