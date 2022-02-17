@@ -1,15 +1,54 @@
-.Bg{ background-color: gainsboro;
-    background-origin: padding-box;
-    box-sizing: border-box;
-    border: gainsboro;
-    text-align: justify;
-    text-align: center;
-    border: 50px 5px;
-
+.service{
+    background:white;
+     width:100%;
+     padding:100px 0px;
 }
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2.5fr 1.5fr;
-  }
- 
-  
+.title h2{
+    color:black;
+    font-size:75px;
+    width:1130px;
+    margin:30px auto;
+    text-align:center;
+    padding: 0PX;
+}
+.title span{
+    color: orange;
+}
+.title p{
+    text-align: center;
+    font-size: 20px;
+}
+.tech span{
+color: red;
+}
+.tech h2{
+    color: rgb(61, 138, 216);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+.card{
+  height: 365px; 
+  width: 335px; 
+  padding: 20px 35px;
+  background: whitesmoke;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card i{
+ font-size:50px;
+ display: block; 
+ text-align: center; 
+ margin: 25px 0px;
+ color: #f9004d;
+}
+.card p{
+    font-size: 20px;
+}
+   
