@@ -60,10 +60,11 @@
             else
             {
                 Swal.fire({
-                    title: "Submitted successfully",
-                    type: "success",
+                    icon: 'success',
+                    title: 'Sent',
+                    showConfirmButton: false,
                     timer: 3000
-                }),
+             }),
                     setTimeout(() =>
                     {
                         location.reload(false);
