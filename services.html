@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDVtUU40NGRlZVZDd3VvMnVxM29FanZNOWZ1d3xBQ3Jtc0tsOThYTGNJNXhneTJ1OHZ0OEZkdXQ4X0xJYXNWN09YMGFtbzBqVEpuQWVVT25vTDZsekpJeGdHM3B0cTNzZFVYRm5KQ245eFFNZUs1bUhQdkQxUXhTeGRXaUU1UVM2cno4QzAwalJPc25NU1JsbUFtRQ&q=https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fslick-carousel%2F1.6.0%2Fslick.min.js"></script>
+    <script src="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1EzODJ2UG9JTnI1SVl0NjFBRWVOcW0zRTdUUXxBQ3Jtc0tuSWo1RHJjY013Z2kwUlJuRWMwTmVSQ0NlU2ltaUlkMHpna3JWUHFtZXFrZ2k0R1FQUjdIQ0NVT0hrRS1NcjcxSk9vbWFaRVhsZzJiNERCUXNWeDlKQURLRHM0dTd6M1g3UEZKOGVIY2RHVTM3eDdhSQ&q=https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fjquery%2F3.5.1%2Fjquery.min.js"></script>
+    <sript src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></sript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,16 +49,58 @@
         </div>
     </div>
     <div class="tech">
-        <center><h2>TECHNOLOGIES, <span>I USE</span></h2></center>
-        <marquee>
-            <img src="bootstrap.jpeg">
-            <img src="jquery.jpeg">
-            <img src="css3.jpeg">
-            <img src="html5.jpeg">
-            <img src="php.jpeg">
-            <img src="wordpress.jpeg">
-            <img src="react.jpg">
-        </marquee>
+        <h2>TECHNOLOGIES, <span>I USE</span></h2>
+
+        <section class="customer-logos slider">
+            <div class="slide">
+                <img src="bootstrap.jpeg">
+            </div>
+            <div class="slide">
+                <img src="jquery.jpeg">
+            </div>
+            <div class="slide">
+                <img src="css3.jpeg">
+            </div>
+            <div class="slide">
+                <img src="html5.jpeg">
+            </div>
+            <div class="slide">
+                <img src="php.jpeg">
+            </div>
+            <div class="slide">
+                <img src="wordpress.jpeg">
+            </div>
+            <!-- <div class="slide">
+                <img src="react.jpg">
+            </div> -->
+        </section>
+
     </div>
+    <sript src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></sript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow:6,
+            slidesToScroll:1,
+            autoplay:true,
+            autoplaySpeed:1500,
+            arrow:false,
+            dots:false,
+            pauseOnHover:false,
+            responsive:[{
+                breakpoint:768,
+                setting:{
+                    slideToShow:4
+                }
+            }, {
+                breakpoint:520,
+                setting:{
+                    slideToSHow:3
+                }
+            }]
+        });
+    });
+    </script>
 </body>
 </html>
