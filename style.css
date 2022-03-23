@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'poppins', sans-serif !important;
+}
+
 nav ul{
     flex: 1;
     text-align: right;
@@ -55,10 +61,14 @@ body{
         color: white;
         margin-left: 30px;
         font-weight: 600;
+        opacity: 0.5;
+    }
+    .contact .btn:hover{
+        opacity: 1.0;
     }
     .user-img{
       width: 540px; 
-      height: 600px;
+      height: 550px;
       position: absolute; 
       right: 8%;
       bottom: 0;

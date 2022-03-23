@@ -24,10 +24,10 @@ body{
     text-align: center;
     font-size: 20px;
 }
-.tech span{
+.container span{
 color: red;
 }
-.tech h2{
+.container h2{
     color: rgb(61, 138, 216);
 }
 .box{
@@ -64,6 +64,14 @@ h2{
 .tech{
     padding-top:150px;
 }
+/* logo slider */
+.container{
+    padding-top: 150px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
 .slick-slide{
     margin: 0 20px;
 }
@@ -71,34 +79,36 @@ h2{
     width: 100%;
 }
 .slick-slider{
-   position: relative;
-   display: block;
-   box-sizing: border-box;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
 }
 .slick-list{
     position: relative;
     display: block;
-    overflow: hidden ;
+    overflow: hidden;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 .slick-track{
     position: relative;
     top: 0;
     left: 0;
-    display: block;
+    display: block
 }
 .slick-slide{
     display: none;
     float: left;
-    height:100%;
-  min-height: 1px;
-
+    height: 100%;
+    min-height: 1px;
 }
 .slick-slide img{
-    display:block;
-
+    display: block;
 }
 .slick-initialized .slick-slide{
     display: block;
 }
+.copy{
+    padding-top: 250px;
+}
+
